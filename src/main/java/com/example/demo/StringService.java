@@ -7,6 +7,9 @@ public class StringService
 {
     public int getLength(String string)
     {
+        if (string == null) {
+            return string.length();
+        }
         return string.length();
     }
 }
